@@ -26,6 +26,11 @@
                             :class="listItem.done ? 'text-decoration-line-through' :''">{{listItem.text}}</li>
                     </ul>
                 </div>
+                <div class="col-12 d-flex">
+                    <input type="text" @keyup.enter="updateTodoList" v-model="nuovoElemento" class="form-control w-75"
+                        placeholder="Inserisci nuovo elemento">
+                    <button class="btn btn-primary" @click="updateTodoList" id="addElement">Aggiungi</button>
+                </div>
             </div>
         </div>
     </div>
