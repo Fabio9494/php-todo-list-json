@@ -9,7 +9,7 @@
     },
     {
         "text": "mangiare",
-        "done": false
+        "done": true
     },
     {
         "text": "salutare",
@@ -17,6 +17,6 @@
     },
     {
         "text": "portare a spasso il cammello",
-        "done": false
+        "done": true
     }
 ]
